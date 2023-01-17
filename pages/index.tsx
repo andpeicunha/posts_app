@@ -9,7 +9,13 @@ import React, { Children } from "react";
 export default function Home() {
   return (
     <>
-      <Head>{Children}</Head>
+      <Head>
+        <metadata
+          name="viewport"
+          content="width=device-width, initial-scale=1"
+        />
+        <title>Preco Certo</title>
+      </Head>
       <div>
         <h1>H1</h1>
         <p></p>
