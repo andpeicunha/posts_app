@@ -3,13 +3,13 @@ import Head from "next/head";
 // import { GetServerSideProps } from "next";
 // import { useState } from "react";
 
-import React from "react";
+import React, { Children } from "react";
 // import useSWR from "swr";
 
 export default function Home() {
   return (
     <>
-      <Head></Head>
+      <Head>{Children}</Head>
       <div>
         <h1>H1</h1>
         <p></p>
