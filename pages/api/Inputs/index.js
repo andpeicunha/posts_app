@@ -1,6 +1,7 @@
 // ingredientes
 
 import connectMongo from "../../../lib/connectMongo";
+import { getUser, postUser, putUser } from "../../../lib/controller";
 
 export default async function handler(req, res) {
 	connectMongo();
@@ -9,13 +10,13 @@ export default async function handler(req, res) {
 
 	switch (method) {
 		case "GET":
-			res.status(200).json({ name: `Method: ${method}` });
+			getUser(req, res);
 			break;
 		case "POST":
-			res.status(200).json({ name: `Method: ${method}` });
+			postUser(req, res);
 			break;
 		case "PUT":
-			res.status(200).json({ name: `Method: ${method}` });
+			putUser(req, res);
 			break;
 		case "DELETE":
 			res.status(200).json({ name: `Method: ${method}` });
