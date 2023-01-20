@@ -1,0 +1,25 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@layer components {
+  .titulo-1 {
+    @apply text-2xl  text-white;
+  }
+  .titulo-2 {
+    @apply text-4xl  text-white;
+  }
+  .titulo-3 {
+    @apply text-6xl  text-white;
+  }
+  .icon-home-nav {
+    @apply flex-none aspect-auto blur-[1px] opacity-60 hover:blur-none hover:opacity-90;
+  }
+}
+
+body {
+  background-color: black;
+  height: 100vs;
+  width: 100vs;
+  border: 0px solid blue;
+}
