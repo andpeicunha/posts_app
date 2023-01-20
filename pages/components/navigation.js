@@ -1,5 +1,5 @@
 import React from "react";
-import { Logo, LinkedinLogo, Blogger, Whats } from "./logotipo"
+import { Logo, LinkedinLogo, Blogger, Whats } from "../logotipo"
 import { motion } from "framer-motion"
 
 export default function Nav() {

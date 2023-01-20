@@ -1,6 +1,6 @@
 // CONTROLLER
 import React from "react";
-import Users from "../models/users";
+import Users from "./models/users";
 
 //post user
 export async function getUser(req, res) { //FUNÇÃO PARA BUSCAR USUARIOS NO BANCO DE DADOS

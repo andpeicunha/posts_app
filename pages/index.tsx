@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { LinkedinLogo } from "./components/logotipo";
+import { LinkedinLogo } from "./logotipo";
 import { motion } from "framer-motion";
 
 export default function Body() {
