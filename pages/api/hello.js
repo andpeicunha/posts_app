@@ -1,4 +1,4 @@
-import connectMongo from "../../lib/connectMongo"
+import connectMongo from "../../pages/lib/connectMongo"
 
 export default function handler(req, res) {
     connectMongo()
